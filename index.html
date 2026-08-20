@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cargo Uncle - reliable courier, parcel and logistics solutions across India.">
+  <title>Cargo Uncle | Courier & Logistics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Cargo Uncle home">
+        <span class="brand-mark">CU</span>
+        <span>Cargo <b>Uncle</b></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Get a Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">SMARTER LOGISTICS • BETTER SERVICE</p>
+          <h1>Move your parcels.<br><span>Move your business.</span></h1>
+          <p class="hero-text">
+            Reliable courier and logistics solutions designed for businesses and individuals.
+            Fast pickups, dependable delivery and simple shipment support.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Book a Shipment</a>
+            <a class="btn btn-secondary" href="#services">Explore Services</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>Reliable</strong><span>Shipment support</span></div>
+            <div><strong>Flexible</strong><span>Business solutions</span></div>
+            <div><strong>Simple</strong><span>Easy coordination</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="package-icon">📦</div>
+          <p class="card-label">CARGO UNCLE</p>
+          <h2>From pickup to delivery, handled with care.</h2>
+          <div class="route">
+            <div><span class="dot"></span><div><small>Pickup</small><b>Your location</b></div></div>
+            <div class="route-line"></div>
+            <div><span class="dot filled"></span><div><small>Delivery</small><b>Destination</b></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">OUR SERVICES</p><h2>Logistics that fit your needs</h2></div>
+          <p>Whether it is a single parcel or regular business shipments, Cargo Uncle is built to make delivery easier.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><div class="icon">🚚</div><h3>Courier Delivery</h3><p>Dependable parcel movement for documents, packages and everyday shipments.</p></article>
+          <article class="service-card"><div class="icon">🏢</div><h3>Business Logistics</h3><p>Practical shipping support for shops, sellers, offices and growing businesses.</p></article>
+          <article class="service-card"><div class="icon">📍</div><h3>Pickup & Drop</h3><p>Convenient pickup coordination and doorstep delivery across serviceable locations.</p></article>
+          <article class="service-card"><div class="icon">📦</div><h3>Parcel Handling</h3><p>Careful handling and shipment coordination from booking through delivery.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="section dark">
+      <div class="container">
+        <div class="section-head light">
+          <div><p class="eyebrow">WHY CARGO UNCLE</p><h2>Built around dependable service</h2></div>
+          <p>We keep the process straightforward so you can focus on your customers and your business.</p>
+        </div>
+        <div class="features">
+          <div><span>01</span><h3>Easy Booking</h3><p>Share your shipment details and get the process moving without unnecessary complexity.</p></div>
+          <div><span>02</span><h3>Clear Communication</h3><p>Keep shipment coordination simple with responsive customer support.</p></div>
+          <div><span>03</span><h3>Business Friendly</h3><p>Designed to support recurring shipments and day-to-day logistics requirements.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT CARGO UNCLE</p>
+          <h2>Your delivery partner for everyday logistics.</h2>
+        </div>
+        <div>
+          <p>Cargo Uncle is a logistics-focused brand created to make courier and parcel movement easier for customers and businesses.</p>
+          <p>We believe good logistics should be dependable, transparent and easy to coordinate. Our website can be expanded with live tracking, online booking, rate calculation and courier API integrations as your business grows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Ready to ship?</h2>
+          <p>Send your requirements and we can discuss the right delivery solution for you.</p>
+          <div class="contact-points">
+            <div>📞 <span>Phone: <b>Add your number</b></span></div>
+            <div>✉️ <span>Email: <b>Add your email</b></span></div>
+            <div>📍 <span>Service Area: <b>India</b></span></div>
+          </div>
+        </div>
+        <form class="quote-form" onsubmit="return submitForm(event)">
+          <label>Name<input required name="name" placeholder="Your name"></label>
+          <label>Phone<input required name="phone" placeholder="Your phone number"></label>
+          <label>Requirement<textarea required name="message" rows="4" placeholder="Tell us about your shipment..."></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p id="form-message" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <a class="brand" href="#home"><span class="brand-mark">CU</span><span>Cargo <b>Uncle</b></span></a>
+      <p>© <span id="year"></span> Cargo Uncle. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
