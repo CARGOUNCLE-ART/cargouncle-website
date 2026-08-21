@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://cargouncle.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://cargouncle.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cargouncle.com/services/pan-india-logistics.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/transport-services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/full-truckload-ftl.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/part-truckload-ptl.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/packers-movers.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/house-shifting.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/office-shifting.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/household-transportation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/intercity-shifting.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/bike-transport.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cargouncle.com/services/car-transport.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
