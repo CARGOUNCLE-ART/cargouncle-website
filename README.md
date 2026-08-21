@@ -1,9 +1,12 @@
-# CargoUncle — Fresh Logistics Website
+# CargoUncle Fresh Reference Build
 
-Fresh static rebuild focused only on logistics visuals: cargo trucks, warehouse loading, packaging, cargo handling, and bike/car transportation.
+Fresh static GitHub Pages website inspired by the layout language of the supplied reference: premium logistics hero, instant quote form, trust strip, service cards, process, why-us, blog and location/service SEO pages.
 
-SEO structure retained: service pages, location pages, canonical tags, robots.txt, sitemap.xml, structured data, internal links, and service/location keywords.
+## Deploy
+Replace the contents of the existing GitHub repository with this folder contents and commit.
 
-No API/backend required. Quote form opens WhatsApp directly.
+## Form
+Quote form opens a pre-filled WhatsApp message to 8700345722; no backend/API required.
 
-Upload the contents of this folder to the root of the GitHub Pages repository and replace the existing files.
+## SEO
+Includes title/meta, canonical, Open Graph, Organization/WebSite/Service schema, robots.txt, sitemap.xml, service pages, location pages, blog pages and internal linking.
