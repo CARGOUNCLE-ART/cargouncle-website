@@ -1,12 +1,7 @@
-# CargoUncle Fresh Reference Build
+# CargoUncle Website
 
-Fresh static GitHub Pages website inspired by the layout language of the supplied reference: premium logistics hero, instant quote form, trust strip, service cards, process, why-us, blog and location/service SEO pages.
+Upload the CONTENTS of this folder to the root of your GitHub Pages repository. `index.html` must be directly beside `styles.css`, `assets/`, `services/`, `blog/`, and `locations/`.
 
-## Deploy
-Replace the contents of the existing GitHub repository with this folder contents and commit.
-
-## Form
-Quote form opens a pre-filled WhatsApp message to 8700345722; no backend/API required.
-
-## SEO
-Includes title/meta, canonical, Open Graph, Organization/WebSite/Service schema, robots.txt, sitemap.xml, service pages, location pages, blog pages and internal linking.
+Custom domain: cargouncle.com
+WhatsApp: 8700345722
+Call: 08062177188
