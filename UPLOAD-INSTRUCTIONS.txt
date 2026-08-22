@@ -1,0 +1,14 @@
+CARGOUNCLE LIVE DEPLOYMENT
+1. Open this ZIP.
+2. Upload ALL files and folders INSIDE the ZIP into your hosting public_html/root folder.
+3. Do NOT upload the outer folder itself.
+4. Confirm these exist directly inside public_html:
+   index.html
+   assets/
+   services/
+   blog/
+   locations/
+   styles.css
+   script.js
+5. Replace old website files when asked.
+6. Clear hosting/CDN/browser cache after upload.
