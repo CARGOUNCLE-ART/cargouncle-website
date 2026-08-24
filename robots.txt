@@ -3,3 +3,5 @@ Allow: /
 Disallow: /build.py
 Sitemap: https://cargouncle.com/sitemap.xml
 Sitemap: https://cargouncle.com/sitemap-cities.xml
+Sitemap: https://cargouncle.com/sitemap-routes.xml
+Sitemap: https://cargouncle.com/sitemap-index.xml
