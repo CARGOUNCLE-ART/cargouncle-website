@@ -1,0 +1,46 @@
+name: Add CargoUncle Instagram
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  update-instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add Instagram link
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          url='https://www.instagram.com/cargouncle.offical/'
+          anchor=f'<a href="{url}" target="_blank" rel="noopener">Instagram</a>'
+          for p in Path('.').rglob('*.html'):
+              s=p.read_text(encoding='utf-8')
+              if url in s:
+                  continue
+              marker='<p>Serving Delhi NCR and customers across India.</p>'
+              if marker in s:
+                  s=s.replace(marker, anchor+marker, 1)
+              else:
+                  marker2='<a href="mailto:support@cargouncle.com">support@cargouncle.com</a>'
+                  if marker2 in s:
+                      s=s.replace(marker2, marker2+anchor, 1)
+                  else:
+                      continue
+              p.write_text(s,encoding='utf-8')
+          p=Path('build.py')
+          if p.exists():
+              s=p.read_text(encoding='utf-8')
+              if url not in s:
+                  s=s.replace('<a href="mailto:support@cargouncle.com">support@cargouncle.com</a><p>Serving Delhi NCR and customers across India.</p>', '<a href="mailto:support@cargouncle.com">support@cargouncle.com</a><a href="'+url+'" target="_blank" rel="noopener">Instagram</a><p>Serving Delhi NCR and customers across India.</p>')
+                  s=s.replace('"sameAs":[]', '"sameAs":["'+url+'"]')
+                  p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Add CargoUncle Instagram link"
+          git push
