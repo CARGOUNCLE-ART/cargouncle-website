@@ -1,0 +1,20 @@
+{
+  "selection_principle": "Build route pages only after validating demand and operational relevance.",
+  "priority_routes": [
+    ["Delhi", "Mumbai"], ["Delhi", "Bengaluru"], ["Delhi", "Hyderabad"], ["Delhi", "Kolkata"], ["Delhi", "Chennai"], ["Delhi", "Pune"], ["Delhi", "Ahmedabad"], ["Delhi", "Jaipur"], ["Delhi", "Lucknow"], ["Delhi", "Chandigarh"],
+    ["Mumbai", "Delhi"], ["Mumbai", "Bengaluru"], ["Mumbai", "Hyderabad"], ["Mumbai", "Pune"],
+    ["Bengaluru", "Chennai"], ["Bengaluru", "Hyderabad"], ["Bengaluru", "Mumbai"],
+    ["Hyderabad", "Chennai"], ["Kolkata", "Bengaluru"], ["Lucknow", "Delhi"]
+  ],
+  "page_requirements": [
+    "Unique route-specific title and meta description",
+    "Origin and destination context",
+    "FTL/PTL and relevant service options",
+    "Cargo/vehicle considerations",
+    "Pickup and delivery planning guidance",
+    "Quote CTA and WhatsApp CTA",
+    "BreadcrumbList plus appropriate Service schema",
+    "Links to both city/location and service pages",
+    "No fabricated prices, transit times, offices, fleet size or guarantees"
+  ]
+}
