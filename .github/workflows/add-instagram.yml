@@ -1,7 +1,6 @@
 name: Add CargoUncle Instagram
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -9,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Add Instagram link
+      - name: Add Instagram link where missing
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -29,13 +28,6 @@ jobs:
                   else:
                       continue
               p.write_text(s,encoding='utf-8')
-          p=Path('build.py')
-          if p.exists():
-              s=p.read_text(encoding='utf-8')
-              if url not in s:
-                  s=s.replace('<a href="mailto:support@cargouncle.com">support@cargouncle.com</a><p>Serving Delhi NCR and customers across India.</p>', '<a href="mailto:support@cargouncle.com">support@cargouncle.com</a><a href="'+url+'" target="_blank" rel="noopener">Instagram</a><p>Serving Delhi NCR and customers across India.</p>')
-                  s=s.replace('"sameAs":[]', '"sameAs":["'+url+'"]')
-                  p.write_text(s,encoding='utf-8')
           PY
       - name: Commit changes
         run: |
