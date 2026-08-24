@@ -1,0 +1,25 @@
+{
+  "country": "India",
+  "purpose": "PAN-India logistics SEO expansion map",
+  "states": [
+    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Delhi", "Jammu and Kashmir", "Ladakh", "Puducherry", "Chandigarh"
+  ],
+  "priority_services": [
+    "goods transportation",
+    "full truckload transport",
+    "part truckload transport",
+    "truck booking",
+    "packers and movers",
+    "house shifting",
+    "office shifting",
+    "car transport",
+    "bike transport"
+  ],
+  "rules": {
+    "state_pages": "Create only where CargoUncle has meaningful service coverage and unique content.",
+    "city_pages": "Prioritize cities with real demand or existing service coverage; never mass-generate thin doorway pages.",
+    "route_pages": "Create only for commercially useful origin-destination pairs and write route-specific content.",
+    "canonical": "Every published page must self-canonicalize to one preferred URL.",
+    "sitemap": "Include only live, canonical, indexable URLs returning HTTP 200."
+  }
+}
