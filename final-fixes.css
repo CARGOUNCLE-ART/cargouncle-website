@@ -2,12 +2,11 @@
 .quick-service-grid a:nth-child(9){border-right:0;background:#f8fbff}
 .quick-service-grid a:nth-child(9) span{font-size:28px;color:#0b3f91}
 .quick-service-grid a:nth-child(9) b{color:#0b3f91}
-/* Keep the Complete Move / main Why Cargo Uncle copy white; only the intended accent labels remain highlighted. */
-#why-us .complete-move,.why-us .complete-move,.whygrid .complete-move{color:#fff!important}
-#why-us .complete-move *,.why-us .complete-move *,.whygrid .complete-move *{color:#fff!important}
-.float .wa{background:#16b957!important;display:grid!important;place-items:center!important}
-.float .wa span{position:relative!important;display:block!important;width:28px!important;height:28px!important;border:2px solid #fff!important;border-radius:50%!important;font-size:0!important}
-.float .wa span:before{content:""!important;position:absolute!important;width:10px!important;height:7px!important;left:6px!important;top:6px!important;border:2px solid #fff!important;border-radius:7px!important}
-.float .wa span:after{content:""!important;position:absolute!important;width:6px!important;height:6px!important;left:3px!important;bottom:1px!important;border-left:2px solid #fff!important;border-bottom:2px solid #fff!important;transform:skew(-20deg)!important;background:transparent!important}
+/* Complete Move heading: gold accent to match the blue-white/gold theme. */
+#why-us .complete-move,#why-us .complete-move *,.why-us .complete-move,.why-us .complete-move *,.whygrid .complete-move,.whygrid .complete-move *{color:#f2c14e!important}
+/* Real WhatsApp mark: the floating button is generated with an empty span in script.js. */
+.float .wa{background:#25D366!important;display:grid!important;place-items:center!important;width:56px!important;height:56px!important;border-radius:50%!important;overflow:hidden!important;padding:0!important}
+.float .wa span{display:block!important;position:relative!important;width:44px!important;height:44px!important;border:0!important;border-radius:0!important;background:url("assets/whatsapp.svg") center/contain no-repeat!important;font-size:0!important}
+.float .wa span:before,.float .wa span:after{content:none!important;display:none!important}
 @media(max-width:1050px){.quick-service-grid{grid-template-columns:repeat(3,1fr)}.quick-service-grid a:nth-child(3n){border-right:0}}
-@media(max-width:760px){.quick-service-grid{grid-template-columns:repeat(3,1fr)}.quick-service-grid a:nth-child(3n){border-right:0}.quick-service-grid a:nth-child(9){border-right:0}}
+@media(max-width:760px){.quick-service-grid{grid-template-columns:repeat(3,1fr)}.quick-service-grid a:nth-child(3n){border-right:0}.quick-service-grid a:nth-child(9){border-right:0}.float .wa{width:50px!important;height:50px!important}.float .wa span{width:40px!important;height:40px!important}}
