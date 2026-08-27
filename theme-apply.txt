@@ -1,0 +1,1 @@
+Blue/white theme is wired through the main stylesheet entrypoint.
