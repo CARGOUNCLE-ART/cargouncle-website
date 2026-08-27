@@ -1,0 +1,19 @@
+/* CargoUncle premium blue & white theme — inspired by the supplied logistics reference */
+:root{--cu-navy:#061b3a;--cu-blue:#0a2f63;--cu-blue2:#174d86;--cu-gold:#f2c14e;--cu-white:#fff;--cu-ink:#10284b;--cu-muted:#5f718b;--cu-line:#dce5ef}
+body{font-family:"Inter","Segoe UI",Arial,sans-serif!important;color:var(--cu-ink);background:#fff}
+h1,h2,h3,h4,h5,h6,button,.btn,.nav nav a{font-family:"Inter","Segoe UI",Arial,sans-serif!important;letter-spacing:0}h1,h2,h3,h4{font-weight:800}
+.topbar{background:var(--cu-navy)}.header{background:#fff;border-bottom:1px solid var(--cu-line);box-shadow:0 4px 18px rgba(6,27,58,.09)}
+.nav nav a{color:#17385f}.nav nav a:hover{color:var(--cu-blue)}.call-head b{background:var(--cu-blue)}.call-head strong{color:var(--cu-navy)}
+.hero{background:var(--cu-navy)}.hero-bg{background-image:linear-gradient(90deg,rgba(3,19,43,.97) 0%,rgba(6,34,70,.82) 48%,rgba(8,47,89,.34) 100%),url("assets/images/loading.jpg")}
+.hero h1{font-weight:800;color:#fff}.hero h1 span{color:var(--cu-gold)}.hero-copy p{color:#eef5fc}.hero-copy .eyebrow{color:#f7d778}
+.actions .orange,.quote .orange{background:var(--cu-gold);color:#071d3c}.actions .green{background:#fff;color:var(--cu-blue)}
+.quote{border-top:4px solid var(--cu-gold);border-radius:12px}.quote h2{color:var(--cu-navy)}.btn{font-size:15px;min-height:46px}
+.trust{border-top:3px solid var(--cu-gold);border-radius:10px}.trust b{color:var(--cu-blue)}
+.section:nth-of-type(even),.tracking-section{background:#f5f8fc}.section-head span{color:var(--cu-blue)}.section-head h2,.section-head h1{color:var(--cu-navy)}.section-head em{color:var(--cu-blue2)}
+.service-card,.blog-grid article{border-color:var(--cu-line);border-radius:12px}.service-card:hover,.blog-grid article:hover{border-color:#b8c9dc;box-shadow:0 16px 30px rgba(6,27,58,.12)}.service-card h3,.blog-grid h3{color:var(--cu-navy)}.service-card a,.blog-grid a,.center-link{color:var(--cu-blue)}
+.band{background:linear-gradient(135deg,#061a38,#0a2f63);border-top:4px solid var(--cu-gold)}.whygrid b{color:var(--cu-gold)}.steps i{background:var(--cu-blue);border:2px solid var(--cu-gold)}
+.cta{background:#f2f6fa;border-top:1px solid var(--cu-line)}.inner h1,.service-hero h1,.article h1{color:var(--cu-navy)}.inner h2,.article h2{color:var(--cu-blue)}.content-two aside{background:#f4f7fb;border-left:4px solid var(--cu-gold)}
+.tracking-card{border-top:3px solid var(--cu-blue)}.tracking-copy span,.tracking-copy em{color:var(--cu-blue)}.tracking-copy h2{color:var(--cu-navy)}.tracking-form .btn{background:var(--cu-blue);color:#fff}.tracking-form .btn:hover{background:var(--cu-blue2)}
+footer{background:#051a38;border-top:4px solid var(--cu-gold)}.float .tel{background:var(--cu-blue)}
+.hero-copy{max-width:720px}.hero h1{font-size:58px}.section-head h2{font-weight:800}.service-card div{padding:17px}.service-card p{line-height:1.65}.quote input,.quote select,.quote textarea{border-color:#cfdbe9}.quote input:focus,.quote select:focus,.quote textarea:focus{border-color:var(--cu-blue);outline:2px solid rgba(10,47,99,.12)}
+@media(max-width:760px){.hero h1{font-size:42px}.hero-copy{padding:55px 0 20px}.nav nav.show{border-top:3px solid var(--cu-gold)}.menu{color:var(--cu-navy)}}
